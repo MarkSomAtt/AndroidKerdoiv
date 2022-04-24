@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">AndoidKerdoiv</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="name">Felhasználónév</string>
+    <string name="password">Jelszó</string>
+    <string name="register">Regisztráció</string>
+    <string name="email">E-mail</string>
+    <string name="passwordAgain">Jelszó ismétlése</string>
+    <string name="cencel">Mégse</string>
+    <string name="phoneNumber">Telefonszám</string>
+    <string name="addres">Lakcím</string>
+    <string name="male">Férfi</string>
+    <string name="female">Nő</string>
+    <string name="question">Kérdés</string>
+    <string name="answer">Válasz</string>
+    <string name="send">Kitölt</string>
+    <string name="feedBack">Menyire volt érdekes a kérdés?</string>
+    <string-array name="phone_modes">
+        <item>Otthoni</item>
+        <item>Munkahelyi</item>
+        <item>Mobil</item>
+        <item>Egyéb</item>
+    </string-array>
+
+    <string-array name="Qestions_list">
+        <item>Hány gyermeke van?</item>
+        <item>Hány éves ön?</item>
+        <item>Mennyire volt megelégedve a kiszólgálással?</item>
+
+    </string-array>
+
+    <string-array name="answers1_list">
+        <item>0</item>
+        <item>18 év alatt </item>
+        <item>Egyáltalán nem</item>
+    </string-array>
+
+    <string-array name="answers2_list">
+        <item>1</item>
+        <item>18–25 év közötti </item>
+        <item>Enyhén megelégedett</item>
+    </string-array>
+
+    <string-array name="answers3_list">
+        <item>2</item>
+        <item>25–35 év kötözzi </item>
+        <item>Megelégedett</item>
+    </string-array>
+
+    <string-array name="answers4_list">
+        <item>3</item>
+        <item>35–55 év közötti </item>
+        <item>Jól megelégedett</item>
+    </string-array>
+    <string-array name="answers5_list">
+        <item>több mint 3</item>
+        <item>55 év fölött </item>
+        <item>Egyáltalán nem</item>
+    </string-array>
+
+    <array name="shopping_item_rates">
+        <item>3.5</item>
+        <item>5</item>
+        <item>4</item>
+        <item>1.5</item>
+        <item>5</item>
+        <item>3</item>
+        <item>4.5</item>
+        <item>4</item>
+        <item>5</item>
+        <item>2.5</item>
+    </array>
+
+
+</resources>

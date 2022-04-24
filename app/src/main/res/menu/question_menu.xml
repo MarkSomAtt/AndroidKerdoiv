@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search_bar"
+        android:title="Search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView"
+        >
+
+    </item>
+    <item
+        android:id="@+id/kitoltott"
+        android:title="Kitoltottek"
+        android:icon="@drawable/ic_kitoltve"
+        app:showAsAction="always"
+        app:actionLayout="@layout/costum_menu_item"
+        >
+
+    </item>
+    <item
+        android:id="@+id/view_selector"
+        android:title="View"
+        android:icon="@drawable/ic_baseline_view_grid"
+        app:showAsAction="always"
+        >
+
+    </item>
+    <item
+        android:id="@+id/setting_button"
+        android:title="Beállítások"
+        app:showAsAction="never"
+        >
+
+    </item>
+    <item
+        android:id="@+id/Log_out_Button"
+        android:title="Kijelentkezés"
+        app:showAsAction="never"
+        >
+
+    </item>
+</menu>
