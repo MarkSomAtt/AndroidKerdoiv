@@ -22,10 +22,10 @@
     <string name="answer4">Negyedik Válasz</string>
     <string name="answer5">Ötödik Válasz</string>
     <string name="addQeation">Kérdés Hozzáadása</string>
-    <string name="rating">Ratin 0-5</string>
+    <string name="rating">Rating 0-5</string>
     <string name="addingButon">Hozzáadás</string>
     <string name="all">Összes</string>
-    <string name="good_rating">Jó értékeléső</string>
+    <string name="good_rating">Jó értékelésű</string>
     <string-array name="phone_modes">
         <item>Otthoni</item>
         <item>Munkahelyi</item>

@@ -210,11 +210,6 @@ public class questionnaireActiviti extends AppCompatActivity {
                 FirebaseAuth.getInstance().signOut();
                 finish();
                 return true;
-            case R.id.setting_button:
-                Log.d(LOG_TAG, "Setting clicked!");
-                FirebaseAuth.getInstance().signOut();
-                finish();
-                return true;
             case R.id.add:
                 startActivity(new Intent(this,Add.class));
                 overridePendingTransition(R.anim.pop_up_show,R.anim.pop_up_exit);
