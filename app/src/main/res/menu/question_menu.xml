@@ -11,6 +11,15 @@
 
     </item>
     <item
+        android:id="@+id/add"
+        android:title="add"
+        android:icon="@drawable/ic_baseline_add"
+        app:showAsAction="always"
+
+        >
+
+    </item>
+    <item
         android:id="@+id/kitoltott"
         android:title="Kitoltottek"
         android:icon="@drawable/ic_kitoltve"
@@ -19,6 +28,7 @@
         >
 
     </item>
+
     <item
         android:id="@+id/view_selector"
         android:title="View"

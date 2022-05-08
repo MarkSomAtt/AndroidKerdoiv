@@ -13,4 +13,14 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+    
+    <style name="Theme.CostumeTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+
+    </style>
+    <style name="Animation">
+        <item name="android:windowEnterAnimation">@anim/pop_up_show</item>
+        <item name="android:windowExitAnimation">@anim/pop_up_exit</item>
+    </style>
 </resources>

@@ -9,6 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndoidKerdoiv">
+        <receiver
+            android:name=".AlarmReceiver"
+            android:enabled="true"
+            android:exported="false"></receiver>
+
+        <activity android:name=".Add"
+            android:theme="@style/Theme.CostumeTheme"
+
+            >
+
+        </activity>
+        <service
+            android:name=".NotificationJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
+
         <activity
             android:name=".questionnaireActiviti"
             android:exported="false" />

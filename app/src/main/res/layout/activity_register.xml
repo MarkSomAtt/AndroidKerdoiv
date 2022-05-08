@@ -1,158 +1,165 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".RegisterActivity">
-    
-    <TextView
-        android:id="@+id/RegistrationView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/register"
-        android:layout_marginTop="@dimen/deafoult_margin"
-        android:textSize="25sp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:textAlignment="center"
-        />
+    android:layout_height="match_parent">
 
-    <EditText
-        android:id="@+id/userNameEditText"
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/deafoult_margin"
-        android:ems="10"
-        android:hint="@string/name"
-        android:inputType="textPersonName"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_below="@+id/RegistrationView"
-        />
+        android:layout_height="match_parent"
+        tools:context=".RegisterActivity">
 
-    <EditText
-        android:id="@+id/userEmailEditText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/deafoult_margin"
-        android:ems="10"
-        android:hint="@string/email"
-        android:inputType="textEmailAddress"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_below="@+id/userNameEditText"
-        />
+        <TextView
+            android:id="@+id/RegistrationView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:layout_marginTop="@dimen/deafoult_margin"
+            android:textSize="25sp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:textAlignment="center"
+            />
 
-    <EditText
-        android:id="@+id/passwordEditText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/deafoult_margin"
-        android:ems="10"
-        android:hint="@string/password"
-        android:inputType="textPassword"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_below="@+id/userEmailEditText"
-        />
+        <EditText
+            android:id="@+id/userNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/name"
+            android:inputType="textPersonName"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/RegistrationView"
+            />
 
-    <EditText
-        android:id="@+id/passwordAgainEditText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/deafoult_margin"
-        android:ems="10"
-        android:hint="@string/passwordAgain"
-        android:inputType="textPassword"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_below="@+id/passwordEditText"
-        />
-    <EditText
-        android:id="@+id/phoneEditText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/deafoult_margin"
-        android:ems="10"
-        android:hint="@string/phoneNumber"
-        android:inputType="phone"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_below="@+id/passwordAgainEditText"
-        />
-    <Spinner
-        android:id="@+id/phoneSpinner"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/deafoult_margin"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_below="@+id/phoneEditText"
-        />
-    <EditText
-        android:id="@+id/addresEditText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/deafoult_margin"
-        android:ems="10"
-        android:hint="@string/addres"
-        android:maxLines="3"
-        android:inputType="textMultiLine|textPostalAddress"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_below="@+id/phoneSpinner"
-        />
-  <RadioGroup
-      android:id="@+id/gender"
-      android:layout_width="match_parent"
-      android:layout_marginTop="@dimen/deafoult_margin"
-      android:layout_height="wrap_content"
-      android:layout_below="@+id/addresEditText">
-     <RadioButton
-         android:id="@+id/maleRadioButton"
-         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-         android:text="@string/male"
-         />
-      <RadioButton
+        <EditText
+            android:id="@+id/userEmailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/deafoult_margin"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/userNameEditText"
+            />
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/deafoult_margin"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/userEmailEditText"
+            />
+
+        <EditText
+            android:id="@+id/passwordAgainEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/deafoult_margin"
+            android:ems="10"
+            android:hint="@string/passwordAgain"
+            android:inputType="textPassword"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/passwordEditText"
+            />
+        <EditText
+            android:id="@+id/phoneEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/deafoult_margin"
+            android:ems="10"
+            android:hint="@string/phoneNumber"
+            android:inputType="phone"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/passwordAgainEditText"
+            />
+        <Spinner
+            android:id="@+id/phoneSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/deafoult_margin"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/phoneEditText"
+            />
+        <EditText
+            android:id="@+id/addresEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/deafoult_margin"
+            android:ems="10"
+            android:hint="@string/addres"
+            android:maxLines="3"
+            android:inputType="textMultiLine|textPostalAddress"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/phoneSpinner"
+            />
+      <RadioGroup
+          android:id="@+id/gender"
           android:layout_width="match_parent"
+          android:layout_marginTop="@dimen/deafoult_margin"
           android:layout_height="wrap_content"
-          android:text="@string/female"
-          />
-      
-  </RadioGroup>
+          android:layout_below="@+id/addresEditText">
+         <RadioButton
+             android:id="@+id/maleRadioButton"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="@string/male"
+             />
+          <RadioButton
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/female"
+              />
 
-      
-
-
-
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_below="@+id/gender"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/deafoult_margin">
+      </RadioGroup>
 
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/register"
-        android:onClick="register"
-        />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:text="@string/cencel"
-        android:onClick="cencel"
-        />
-
-    </LinearLayout>
 
 
-</RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/gender"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/deafoult_margin">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:onClick="register"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="@string/cencel"
+            android:onClick="cencel"
+            />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>

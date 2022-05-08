@@ -114,14 +114,6 @@ public class QuestionsAdapter extends RecyclerView.Adapter<QuestionsAdapter.View
              mAnswer5 =itemView.findViewById(R.id.answerFiveRadioButton);
              mRatingbar =itemView.findViewById(R.id.ratingBar);
 
-             itemView.findViewById(R.id.kitolt).setOnClickListener(new View.OnClickListener() {
-                 @Override
-                 public void onClick(View view) {
-                     Log.d("Activity","clicked");
-                     ((questionnaireActiviti)context).updateAlertIcon();
-
-                 }
-             });
 
         }
 
@@ -133,6 +125,22 @@ public class QuestionsAdapter extends RecyclerView.Adapter<QuestionsAdapter.View
             mAnswer4.setText(currentItem.getAnswer4());
             mAnswer5.setText(currentItem.getAnswer5());
             mRatingbar.setRating(currentItem.getRated());
+
+            itemView.findViewById(R.id.kitolt).setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Log.d("Activity","clicked");
+                    ((questionnaireActiviti)context).updateAlertIcon(currentItem);
+
+                }
+            });
+            itemView.findViewById(R.id.delete).setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    ((questionnaireActiviti)context).deleteItem(currentItem);
+                }
+            });
+
         }
     }
 

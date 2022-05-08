@@ -85,10 +85,13 @@ public class RegisterActivity extends AppCompatActivity implements AdapterView.O
         String Passwordstr=passwordEditText.getText().toString();
         String PasswordstrAgainstr=passwordAgainEditText.getText().toString();
         String userEmailstr=userEmailEditText.getText().toString();
-        if (!Passwordstr.equals(PasswordstrAgainstr)){
-            Log.e(LOG_TAG,"Jelszavak nem egyeznek");
+        if (Passwordstr.length()<6){
+            passwordEditText.setError("A jelszó legalább 6 hoszzú legyen");
+        }else if (!Passwordstr.equals(PasswordstrAgainstr)){
+            passwordAgainEditText.setError("Jelszavak nem egyeznek");
             return;
         }
+
 
         String phoneNumber= phoneEditText.getText().toString();
         String phoneType=spinner.getSelectedItem().toString();

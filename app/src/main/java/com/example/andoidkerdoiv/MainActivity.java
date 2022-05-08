@@ -93,6 +93,8 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onDestroy() {
+        FirebaseAuth.getInstance().signOut();
+        finish();
         super.onDestroy();
     }
 

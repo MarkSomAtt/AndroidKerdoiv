@@ -8,8 +8,13 @@ public class Questions {
     private String answer3;
     private String answer4;
     private String answer5;
+    private String id;
+    private int kitoltesCount;
 
-    public Questions(String question, float rated, String answer1, String answer2, String answer3, String answer4, String answer5) {
+    public Questions() {
+    }
+
+    public Questions(String question, float rated, String answer1, String answer2, String answer3, String answer4, String answer5,int kitoltesCount) {
         this.question = question;
         this.rated = rated;
         this.answer1 = answer1;
@@ -17,6 +22,7 @@ public class Questions {
         this.answer3 = answer3;
         this.answer4 = answer4;
         this.answer5 = answer5;
+        this.kitoltesCount=kitoltesCount;
     }
 
     public String getQuestion() {
@@ -45,5 +51,11 @@ public class Questions {
 
     public String getAnswer5() {
         return answer5;
+    }
+    public int getKitoltesCount(){return kitoltesCount;}
+
+    public String _getId(){return id; }
+    public void setId(String str){
+        this.id=str;
     }
 }

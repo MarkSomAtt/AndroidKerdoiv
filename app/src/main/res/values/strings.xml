@@ -15,6 +15,17 @@
     <string name="answer">Válasz</string>
     <string name="send">Kitölt</string>
     <string name="feedBack">Menyire volt érdekes a kérdés?</string>
+    <string name="delete">Törlés</string>
+    <string name="answer1">Elsö válasz</string>
+    <string name="answer2">Második Válasz</string>
+    <string name="answer3">Harmadik Válasz</string>
+    <string name="answer4">Negyedik Válasz</string>
+    <string name="answer5">Ötödik Válasz</string>
+    <string name="addQeation">Kérdés Hozzáadása</string>
+    <string name="rating">Ratin 0-5</string>
+    <string name="addingButon">Hozzáadás</string>
+    <string name="all">Összes</string>
+    <string name="good_rating">Jó értékeléső</string>
     <string-array name="phone_modes">
         <item>Otthoni</item>
         <item>Munkahelyi</item>
@@ -55,7 +66,7 @@
     <string-array name="answers5_list">
         <item>több mint 3</item>
         <item>55 év fölött </item>
-        <item>Egyáltalán nem</item>
+        <item>Teljesen megelégedett</item>
     </string-array>
 
     <array name="shopping_item_rates">

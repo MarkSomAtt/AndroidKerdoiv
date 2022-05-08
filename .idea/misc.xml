@@ -3,14 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/AndoidKerdoiv/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1705" />
         <entry key="..\:/Users/user/AndroidStudioProjects/AndoidKerdoiv/app/src/main/res/drawable/circle.xml" value="0.236" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/AndoidKerdoiv/app/src/main/res/drawable/ic_baseline_view_grid.xml" value="0.1705" />
         <entry key="..\:/Users/user/AndroidStudioProjects/AndoidKerdoiv/app/src/main/res/layout-land/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/AndoidKerdoiv/app/src/main/res/layout-land/activity_questionnaire_activiti.xml" value="0.21516754850088182" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/AndoidKerdoiv/app/src/main/res/layout-land/list_item.xml" value="0.21516754850088182" />
         <entry key="..\:/Users/user/AndroidStudioProjects/AndoidKerdoiv/app/src/main/res/layout/activity_main.xml" value="0.24547101449275363" />
         <entry key="..\:/Users/user/AndroidStudioProjects/AndoidKerdoiv/app/src/main/res/layout/activity_questionnaire_activiti.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/user/AndroidStudioProjects/AndoidKerdoiv/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/AndoidKerdoiv/app/src/main/res/layout/add.xml" value="0.1" />
         <entry key="..\:/Users/user/AndroidStudioProjects/AndoidKerdoiv/app/src/main/res/layout/costum_menu_item.xml" value="0.24547101449275363" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/AndoidKerdoiv/app/src/main/res/layout/list_item.xml" value="0.176" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/AndoidKerdoiv/app/src/main/res/menu/question_menu.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/AndoidKerdoiv/app/src/main/res/layout/list_item.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/AndoidKerdoiv/app/src/main/res/menu/question_menu.xml" value="0.1" />
       </map>
     </option>
   </component>
